@@ -5,7 +5,11 @@ class TicTacToeSymbol extends StatelessWidget {
   final Color color;
   final double fontSize;
 
-  TicTacToeSymbol({required this.symbol, required this.color, required this.fontSize});
+  const TicTacToeSymbol(
+      {super.key,
+      required this.symbol,
+      required this.color,
+      required this.fontSize});
 
   @override
   Widget build(BuildContext context) {
